@@ -76,17 +76,18 @@ body{
 	width: 50px;
 	font-weight: bold;
 }
-.next a{
+.next button{
 	background-color: transparent;
     border: none;
+    outline: none;
     font-size: 16px;
     cursor: pointer;
     text-decoration: none;
     color: #00175b;
 }
 
-.next a:disabled,
-.next a[disabled]{
+.next button:disabled,
+.next button[disabled]{
 	opacity: 0.6;
     cursor: not-allowed;
 }

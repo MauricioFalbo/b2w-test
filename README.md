@@ -19,7 +19,7 @@ git clone https://github.com/MauricioFalbo/b2w-test.git
 
 ```sh
 $ cd b2w-test
-$ npm install 
+$ npm install ou yarn install
 ```
 
 - Rodar o script:

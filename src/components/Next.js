@@ -14,9 +14,9 @@ export default class Next extends Component {
 	render() {
 		return (
 			<div className="next">
-				<a onClick={this.next.bind(this)} disabled={this.props.disable} >
+				<button onClick={this.next.bind(this)} disabled={this.props.disable} >
 					<span>NEXT</span>
-				</a>
+				</button>
 			</div>
 		);
 
