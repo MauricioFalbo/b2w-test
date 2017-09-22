@@ -5,6 +5,17 @@
 
 body{
 	background-color: #f0ebe1;
+	background-image: url('../image/bg-starwars.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loading{
+	background-image: url('../image/loading.gif');
+	background-repeat: no-repeat;
+	background-size: 150px ;
+	height: 150px;
+	width: 150px;
 }
 
 .main{
@@ -19,6 +30,7 @@ body{
 	max-width: 320px;
 	min-height: 250px;	
 	border: 5px solid #00175b;
+	box-shadow: 5px 5px 0 #333;
 }
 
 .title{
@@ -28,7 +40,7 @@ body{
 	color:#00175b;
     display: flex;
     justify-content: center;
-	
+	text-transform: uppercase;
 }
 
 .itens{

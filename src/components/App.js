@@ -45,7 +45,9 @@ export default class App extends Component {
 		return (
 			<div>
 				<div className={this.state.loadingClass ? 'block' : 'hide'}>
-					Carregando...
+					<div className="main">
+						<div className="loading"></div>	
+					</div>	
 				</div>
 				<div className={!this.state.loadingClass ? 'block' : 'hide'}>
 					<Planet nome={this.state.planeta.name} population={this.state.planeta.population} climate={this.state.planeta.climate} terrain={this.state.planeta.terrain} films={this.state.planeta.films} />
