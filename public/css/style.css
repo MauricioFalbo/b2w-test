@@ -67,15 +67,12 @@ body{
 }
 
 .next{
-	
 	margin: 20px auto;
-	padding: 10px;
-    padding-right: 5px;
 	border:4px solid #00175b;
 	cursor: pointer;
-	width: 50px;
-	font-weight: bold;
+	width: 70px;
 }
+
 .next button{
 	background-color: transparent;
     border: none;
@@ -84,6 +81,10 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: #00175b;
+    height: 40px;
+    line-height: 40px;
+    width: 70px;
+	font-weight: bold;
 }
 
 .next button:disabled,
@@ -91,8 +92,6 @@ body{
 	opacity: 0.6;
     cursor: not-allowed;
 }
-
-
 
 .hide{
 	display: none;
