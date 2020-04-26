@@ -14,7 +14,7 @@ export default class App extends Component {
 	}
 
 	componentDidMount() {
-		const url = 'https://swapi.co/api/planets/';
+		const url = 'https://swapi.dev/api/planets/';
 		axios.get(url)
 			.then(response => {
 				const countPlanet = response.data.count;
@@ -28,7 +28,7 @@ export default class App extends Component {
 	}
 
 	getPlanetById(currentPlanetId) {
-		const urlPlanet = `https://swapi.co/api/planets/${currentPlanetId}`;
+		const urlPlanet = `https://swapi.dev/api/planets/${currentPlanetId}`;
 		console.log(urlPlanet);
 		this.setState({ nextButtonDisabled: true });
 		axios.get(urlPlanet)

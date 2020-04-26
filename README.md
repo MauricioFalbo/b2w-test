@@ -1,7 +1,7 @@
 # Teste Star Wars
 Teste solicitado pela B2W
 
-- Api Fonte: https://swapi.co/
+- Api Fonte: https://swapi.dev
 - Desenvolvido com: React 
 
 # Versão
